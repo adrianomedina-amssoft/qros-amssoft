@@ -1,18 +1,20 @@
 # AMS QrOS
 
-**Mais organização para sua assistência técnica. Mais clareza em cada atendimento.**
+**Identifique equipamentos e abra ordens de serviço pelo QR Code.**
 
 O QrOS reúne empresas, contatos, equipamentos e ordens de serviço em um único
-painel. Desenvolvido para a assistência técnica e manutenção de equipamentos
-laboratoriais e hospitalares, ajuda sua equipe a acompanhar o trabalho e manter
-as informações de cada atendimento sempre à mão.
+painel, atendendo empresas de qualquer segmento. Use etiquetas com QR Code para
+identificar seus equipamentos, solicitar atendimento e acompanhar cada serviço.
+
+Da identificação ao histórico de manutenção, sua equipe mantém as informações
+organizadas e acompanha o trabalho em cada equipamento.
 
 ## O que você pode fazer
 
+- **Abrir O.S. pelo QR Code:** identifique o equipamento e solicite atendimento ao escanear sua etiqueta.
 - **Organizar seus clientes:** mantenha empresas e contatos em um cadastro centralizado.
 - **Conhecer seus equipamentos:** consulte dados, localização, criticidade e histórico.
 - **Acompanhar os atendimentos:** gerencie ordens de serviço e registre o trabalho realizado.
-- **Facilitar a identificação:** acesse os equipamentos por QR Code.
 - **Ter uma visão da operação:** acompanhe indicadores e atendimentos pelo painel.
 
 ## Comece em poucos passos
@@ -35,8 +37,8 @@ sua licença AMS Soft.
 
 ### 3. Organize sua operação
 
-Cadastre suas empresas, contatos e equipamentos e comece a registrar os
-atendimentos. Você pode configurar o domínio e o certificado depois, pelo painel,
+Cadastre suas empresas, contatos e equipamentos, use os QR Codes nas etiquetas
+e comece a registrar os atendimentos. Você pode configurar o domínio e o certificado depois, pelo painel,
 em **Configurações → Domínio e HTTPS**.
 
 ## Novidades e downloads
