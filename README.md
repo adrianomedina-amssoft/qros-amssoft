@@ -1,21 +1,47 @@
-# QrOS — distribuição binária
+# AMS QrOS
 
-Canal de distribuição da AMS Soft. A fonte própria da aplicação não é publicada
-neste repositório. Releases contêm somente instalador, chave pública, manifesto,
-assinatura e pacote versionado Debian12 amd64.
+**Mais organização para sua assistência técnica. Mais clareza em cada atendimento.**
 
-**Ainda sem release liberada para clientes.** O candidato1.0.7 é experimental e
-está em validação de laboratório. Não usar em produção ou com dados reais.
+O QrOS reúne empresas, contatos, equipamentos e ordens de serviço em um único
+painel. Desenvolvido para a assistência técnica e manutenção de equipamentos
+laboratoriais e hospitalares, ajuda sua equipe a acompanhar o trabalho e manter
+as informações de cada atendimento sempre à mão.
 
-Após aprovação, obtenha versão/hash do instalador/fingerprint da chave por
-atendimento autenticado da AMS, independente deste download. Baixe install.sh
-sem executar automaticamente, confira hash e só então use --verify-only e
-instale com --domain SEU_DOMINIO. Domínio precisa apontar à VPS com TCP80/443;
-SSH permanece na porta administrativa do operador. Banco e API ficam privados.
+## O que você pode fazer
 
-O cliente não precisa de acesso GitHub privado, Docker, Dokploy, Node ou compilador.
-PostgreSQL18, Nginx e dependências nativas são provisionados por apt. Recursos,
-backup externo e custódia operacional devem ser configurados pelo responsável.
-MFA do administrador é obrigatório. Arquivos Web e scripts operacionais são
-visíveis; executáveis podem ser analisados. Fontes/licenças de terceiros exigidas
-por suas licenças acompanham o pacote; a fonte própria permanece privada.
+- **Organizar seus clientes:** mantenha empresas e contatos em um cadastro centralizado.
+- **Conhecer seus equipamentos:** consulte dados, localização, criticidade e histórico.
+- **Acompanhar os atendimentos:** gerencie ordens de serviço e registre o trabalho realizado.
+- **Facilitar a identificação:** acesse os equipamentos por QR Code.
+- **Ter uma visão da operação:** acompanhe indicadores e atendimentos pelo painel.
+
+## Comece em poucos passos
+
+### 1. Instale no seu servidor
+
+Em um servidor **Debian 12 AMD64 (Intel/AMD de 64 bits)**, execute:
+
+```bash
+curl -fsSL https://github.com/adrianomedina-amssoft/qros-amssoft/releases/latest/download/install.sh | sudo bash
+```
+
+Ao terminar, abra no navegador o endereço indicado pelo instalador. Use o código
+de primeiro acesso exibido para criar o administrador.
+
+### 2. Configure seu acesso
+
+Crie o administrador com nome, e-mail e senha. Depois, entre no painel e ative
+sua licença AMS Soft.
+
+### 3. Organize sua operação
+
+Cadastre suas empresas, contatos e equipamentos e comece a registrar os
+atendimentos. Você pode configurar o domínio e o certificado depois, pelo painel,
+em **Configurações → Domínio e HTTPS**.
+
+## Novidades e downloads
+
+Confira as melhorias de cada versão e os arquivos de instalação em
+[Releases do QrOS](https://github.com/adrianomedina-amssoft/qros-amssoft/releases).
+
+**AMS Soft · Tecnologia para simplificar sua operação.**
